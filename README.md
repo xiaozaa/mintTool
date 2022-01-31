@@ -70,6 +70,6 @@ In public.js, there are two place need to be customized:
   //-----------------------------------------------------------------
   //-----------------------------------------------------------------
   
-In abi.json, you neet to copy the smart contract abi and paste in abi.json.  
+In abi.json, you need to copy the smart contract abi and paste in abi.json.  
 
 # All privacy information are stored in your local workspace. The repo will not use any personal information or private key. Be careful about your wallet.
