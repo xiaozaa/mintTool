@@ -1,0 +1,19 @@
+{
+  "name": "publicmint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public.js",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.1.11",
+    "abi-decoder": "^2.4.0",
+    "ethereumjs-tx": "^2.1.2",
+    "ethers": "^5.5.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
