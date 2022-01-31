@@ -51,16 +51,22 @@ In config.js. we need to change thing before use.
 
 In public.js, there are two place need to be customized:
   1. Change mint function name
+  
   //-----------------------------------------------------------------
   //--------------- Change this function every time------------------
+  
   let extraData =  await contract.methods.mintSAC(config.number);
+  
   //-----------------------------------------------------------------
   //-----------------------------------------------------------------
   
   2. Change the signal that you want to monitor
+  
   //-----------------------------------------------------------------
   //--------------- Change this function every time------------------
+  
   if((decodedData.name == 'flipPublicSaleState')){
+  
   //-----------------------------------------------------------------
   //-----------------------------------------------------------------
   
