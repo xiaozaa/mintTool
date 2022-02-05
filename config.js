@@ -33,5 +33,8 @@ module.exports = Object.freeze({
     wssGoerli : "wss://eth-goerli.alchemyapi.io/v2/<Goerli api key>",
 
     // optional. debug usage. The value should be "Rinkeby" for rinkeby, "Goerli" for goerli or "" for mainnet
-    network : "Goerli"
+    network : "Goerli",
+
+    // timere script const, the start time of dutch
+    time: 1644069600,
 });
