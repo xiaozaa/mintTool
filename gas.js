@@ -90,7 +90,12 @@ const sortRank = () => {
     for(let i of copyRank){
       sum += i[1];
     }
-    console.log("PENDING TXN (",copyRank.length ,") MAX TIPS(GWEI)", roundTo(copyRank[0][1]), "MIN TIPS(GWEI)", roundTo(copyRank[copyRank.length-1][1]), "Average(GWEI)", roundTo(sum/copyRank.length));
+    if(copyRank.length){
+      console.log("PENDING TXN (",copyRank.length ,") MAX TIPS(GWEI)", roundTo(copyRank[0][1]), "MIN TIPS(GWEI)", roundTo(copyRank[copyRank.length-1][1]), "Average(GWEI)", roundTo(sum/copyRank.length));
+    }
+    else{
+      console.log("No pending txn");
+    }
   },5000)
 }
 
